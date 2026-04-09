@@ -11,7 +11,7 @@ st.text("This will help you draw better and accurate observation for your data."
 st.text("🚀 Upload your dataset and start exploring instantly!")
 
 #  Uploading the file (.csv)
-file_upload = st.file_uploader("Upload your CSV file (.csv):", type=["csv"]
+file_upload = st.file_uploader("Upload your CSV file (.csv):", type=["csv"])
 if file_upload is not None:
     st.session_state.df = pd.read_csv(file_upload)
     
