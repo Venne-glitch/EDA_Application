@@ -22,7 +22,6 @@ if "df" in st.session_state:
     st.write("Numerical Columns:", list(num_cols))
     st.write("Categorical Columns:", list(cat_cols))
     st.session_state.num_cols=num_cols
-    )
     # Numerical Selectbox _ Stats
     st.subheader("Numerical Analysis")
     # Displaying the columns to perform statistical measures
