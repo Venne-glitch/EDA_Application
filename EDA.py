@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Title and Description
-st.title("🔍 Descriptive Analyzer for Numerical and Categorical Data")
+st.title("🔍 Real-Time Exploratory Data Analysis (EDA) & Statistics Dashboard")
 st.text("This application helps you explore and analyze datasets.")
 st.text("It analyze both categorical and numerical data columns,")
 st.text("It identifies any missing values, viewsstatistical measures and provide an preview of your data structure.")
